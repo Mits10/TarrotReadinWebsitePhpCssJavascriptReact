@@ -1,0 +1,244 @@
+/*.............color..............
+light pink :#ccafaf
+1-light pink :#ffbcbc
+dark pink : #900c3f;
+font-family: 'Great Vibes', cursive;
+*/
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 200;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-family: serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header-section */
+header {
+  background-image: url(assets/image/background.jpg);
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+}
+.rowp{
+  max-width: inherit;
+  margin: 0 auto;
+  /*background-image: linear-gradient(#ccafaf,#ccafaf); */
+}
+
+/*................ navbar...........*/
+.row{
+  max-width: inherit;
+  margin: 0 auto;
+  background-image: linear-gradient(#ccafaf,#ccafaf);
+}
+
+.row h3 {
+  font-size: 40px;
+  margin-top: 20px;
+  float: left;
+  font-family: 'Great Vibes', cursive;
+}
+.main-nav {
+  float: right;
+  list-style:none;
+
+}
+.main-nav li {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.main-nav li a {
+  color:  #900c3f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-family: 'Great Vibes', cursive;
+}
+
+.main-nav li a:visited,
+.main-nav li a:link {
+  color: #900c3f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.9s;
+  font-family: 'Great Vibes', cursive;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  color: #900c3f;
+  border-bottom: 2px solid #ccafaf;
+  padding-bottom:2px;
+}
+/*........navbar end............. */
+.header-x {
+  position: absolute;
+  width: 1349px;
+  top: 50%;
+  left:70%;
+  transform: translate(-50%,-50%);
+}
+.header-x h1 {
+  font-size: 40px;
+}
+/*...............header-end............. */
+
+/*.............. blos-post ...............*/
+
+/*.sidebar {
+  /*background-color: #97e5ef ; */
+  /*width: 25% ;
+  float: right;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+*/
+.blog-post {
+  background-color: #ccafaf ;
+  width: 75%;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  top: 700px;
+  left: 20%;
+}
+.blog-post p {
+  font-family:'Great Vibes', cursive;
+  color: #900c3f;
+}
+.about h4,
+.blog-post h1 ,h2 {
+  font-family:'Great Vibes', cursive;
+  color: #900c3f;
+}
+
+.about {
+  border-top: 1px solid #3333;
+  /*background-color: #ff5733 ; */
+  padding-top: 30px;
+  float: left;
+  width: 20%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/*blog-end */
+
+h1,h2,h3,h4 {
+  color: #900c3f ;
+  font-style: italic;
+  font-family: monospace ,sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Great Vibes', cursive;
+  color: #c70039;
+}
+
+/*............pakages start.............*/
+section {
+  padding: 1px 0;
+}
+.box {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.section-features {
+  position: absolute;
+  top:1100px ;
+  left: 5%;
+  right: 5%;
+}
+.section-features h2 {
+  font-family:'Great Vibes', cursive;
+  color: #900c3f;
+  text-align: center;
+  margin-bottom: 20 px;
+}
+.section-features h2::after{
+  display: block;
+  height: 2px;
+  background-color: #900c3f;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.span1-1-of-4 {
+	width: 22.8%;
+}
+/*paragrams */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+
+}
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+
+}
+
+/*................ picture grid...........*/
+.tarrot-pics {
+  position: absolute;
+  top: 1500px;
+}
+.t-pics {
+list-style: none;
+width: 100%;
+
+}
+.t-pics li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.tarrot-photo {
+  width: 100%;
+  margin-left: 0;
+  background-color: #900c3f;
+}
+.tarrot-photo img {
+  width: 100%;
+  height: auto;
+}
